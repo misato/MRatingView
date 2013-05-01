@@ -19,6 +19,10 @@
 		19C1B9421731331300B5684C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C1B9411731331300B5684C /* ViewController.m */; };
 		19C1B9451731331300B5684C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19C1B9431731331300B5684C /* ViewController_iPhone.xib */; };
 		19C1B9481731331300B5684C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19C1B9461731331300B5684C /* ViewController_iPad.xib */; };
+		19C1B9511731334000B5684C /* MRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C1B9501731334000B5684C /* MRatingView.m */; };
+		19C1B95A1731368E00B5684C /* star_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C1B9571731368E00B5684C /* star_empty.png */; };
+		19C1B95B1731368E00B5684C /* star_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C1B9581731368E00B5684C /* star_full.png */; };
+		19C1B95C1731368E00B5684C /* star_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C1B9591731368E00B5684C /* star_half.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,11 @@
 		19C1B9411731331300B5684C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		19C1B9441731331300B5684C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		19C1B9471731331300B5684C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		19C1B94F1731334000B5684C /* MRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRatingView.h; sourceTree = "<group>"; };
+		19C1B9501731334000B5684C /* MRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRatingView.m; sourceTree = "<group>"; };
+		19C1B9571731368E00B5684C /* star_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_empty.png; sourceTree = "<group>"; };
+		19C1B9581731368E00B5684C /* star_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_full.png; sourceTree = "<group>"; };
+		19C1B9591731368E00B5684C /* star_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_half.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,8 @@
 		19C1B92E1731331300B5684C /* MRatingView */ = {
 			isa = PBXGroup;
 			children = (
+				19C1B9561731368E00B5684C /* icons */,
+				19C1B94E1731332A00B5684C /* src */,
 				19C1B9371731331300B5684C /* AppDelegate.h */,
 				19C1B9381731331300B5684C /* AppDelegate.m */,
 				19C1B9401731331300B5684C /* ViewController.h */,
@@ -108,6 +119,25 @@
 				19C1B93E1731331300B5684C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19C1B94E1731332A00B5684C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				19C1B94F1731334000B5684C /* MRatingView.h */,
+				19C1B9501731334000B5684C /* MRatingView.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		19C1B9561731368E00B5684C /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				19C1B9571731368E00B5684C /* star_empty.png */,
+				19C1B9581731368E00B5684C /* star_full.png */,
+				19C1B9591731368E00B5684C /* star_half.png */,
+			);
+			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +197,9 @@
 				19C1B93F1731331300B5684C /* Default-568h@2x.png in Resources */,
 				19C1B9451731331300B5684C /* ViewController_iPhone.xib in Resources */,
 				19C1B9481731331300B5684C /* ViewController_iPad.xib in Resources */,
+				19C1B95A1731368E00B5684C /* star_empty.png in Resources */,
+				19C1B95B1731368E00B5684C /* star_full.png in Resources */,
+				19C1B95C1731368E00B5684C /* star_half.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +213,7 @@
 				19C1B9351731331300B5684C /* main.m in Sources */,
 				19C1B9391731331300B5684C /* AppDelegate.m in Sources */,
 				19C1B9421731331300B5684C /* ViewController.m in Sources */,
+				19C1B9511731334000B5684C /* MRatingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
